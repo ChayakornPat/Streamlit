@@ -1,4 +1,4 @@
-# Name of Streamlit App
+# Streamlit App by Yachtbcc
 
 Description of the app ...
 
