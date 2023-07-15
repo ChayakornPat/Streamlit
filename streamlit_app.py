@@ -9,6 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import nltk
 import re
+import sklearn
 from tqdm import tqdm
 from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer
 from nltk.stem import WordNetLemmatizer
@@ -28,5 +29,4 @@ from sklearn.metrics import accuracy_score,classification_report
 import warnings
 warnings.filterwarnings('ignore')
 
-data=pd.read_csv('mbti_1.csv')
-print(data)
+
